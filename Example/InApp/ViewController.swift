@@ -7,11 +7,14 @@
 //
 
 import UIKit
-
+import InApp
 class ViewController: UIViewController {
+    let inApp = InAppPurchase()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        print(inApp.someInAppFunction())
         // Do any additional setup after loading the view, typically from a nib.
     }
 
